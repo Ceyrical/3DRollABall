@@ -1,0 +1,541 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1701731330137836, "dur": 2862954, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701731330138080, "dur": 9152, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701731330147235, "dur": 47096, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701731330194333, "dur": 2415733, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701731332610068, "dur": 376676, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701731332986746, "dur": 14043, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701731333001391, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1701731331924356, "dur": 662711, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701731331925620, "dur": 41455, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701731332567617, "dur": 4697, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701731332572318, "dur": 14741, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701731332573053, "dur": 13008, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701731332591606, "dur": 1216, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701731332590798, "dur": 2048, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701731333001477, "dur": 193, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1701731332660644, "dur":1830, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332662482, "dur":74, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1701731332662564, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1701731332662585, "dur":552, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1701731332663174, "dur":659, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332663833, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332965631, "dur":335, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332965966, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332965989, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332965993, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332965999, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966002, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966008, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966011, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966017, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966019, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966024, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966027, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966032, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966034, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966040, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966042, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966047, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966050, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966055, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966058, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966063, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966065, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966071, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966073, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966079, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966095, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332966116, "dur":2546, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1701731332663316, "dur":525, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332663843, "dur":5477, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332669339, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701731332669342, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332669414, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701731332669422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332670700, "dur":3796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701731332674500, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1701731332674641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332675864, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1701731332677547, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1701731332677671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332677742, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1701731332679624, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1701731332679751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332679759, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1701731332682087, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1701731332682216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332682224, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1701731332684451, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball.exe" }}
+,{ "pid":12345, "tid":1, "ts":1701731332684522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332684529, "dur":4013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball.exe" }}
+,{ "pid":12345, "tid":1, "ts":1701731332688667, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332689027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332689557, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332691111, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332691334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332691412, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332693153, "dur":30251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332723409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332723418, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332726770, "dur":21221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332747994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332748001, "dur":3893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332751956, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332752408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332752417, "dur":4868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332757342, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332757690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332757698, "dur":4967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332762723, "dur":32081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332794808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332794815, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332796646, "dur":40268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332836918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332836926, "dur":4176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332841157, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332841529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332841538, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332844123, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332844345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332844354, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332846205, "dur":27002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332873215, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332873229, "dur":3430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332876719, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332876836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332876846, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332879720, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332879796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332879802, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701731332882015, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1701731332882180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332882187, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1701731332883580, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701731332883638, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332883643, "dur":1915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701731332885635, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1701731332885828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701731332885835, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1701731332887529, "dur":78139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701731332663346, "dur":501, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701731332663847, "dur":5477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701731332669339, "dur":12171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1701731332681515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701731332681531, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1701731332683037, "dur":122877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701731332805918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701731332805924, "dur":14899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701731332820874, "dur":68567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701731332889462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701731332889472, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701731332891178, "dur":74464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332663381, "dur":472, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332663854, "dur":5469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332669337, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1701731332669564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332672788, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1701731332674899, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1701731332674999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332675100, "dur":2289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1701731332677458, "dur":10281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1701731332687743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332687752, "dur":4647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1701731332692449, "dur":52436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332744892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332744903, "dur":2259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332747220, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332747426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332747434, "dur":4346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332751916, "dur":1478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332753398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332753407, "dur":5850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332759311, "dur":26586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332785901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332785908, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332788274, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332788545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332788553, "dur":2994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332791599, "dur":22640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332814254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332814267, "dur":3111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332817433, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332817625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332817633, "dur":4031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332821710, "dur":37056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332858775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332858783, "dur":5994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332864829, "dur":1100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332865932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332865939, "dur":4069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332870056, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332870107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332870114, "dur":13584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701731332883832, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1701731332883902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701731332883909, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1701731332885896, "dur":79734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332663422, "dur":471, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332663893, "dur":5432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332669338, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1701731332669607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332687143, "dur":5352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1701731332692696, "dur":25763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332718502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332718513, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332720294, "dur":28288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332748585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332748593, "dur":6459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332755111, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332755309, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332755317, "dur":4815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332760183, "dur":69106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332829330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332829340, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332831198, "dur":20765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332851966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332851973, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332854270, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332854323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332854329, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332856410, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332856609, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332856615, "dur":4223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332860890, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332861335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332861343, "dur":6265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332867747, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332867804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332867815, "dur":2121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332869985, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332870036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332870043, "dur":5169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332875265, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332875318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332875325, "dur":3735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332879118, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332879173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332879182, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701731332881616, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701731332881670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332881678, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701731332883652, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701731332883710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332883716, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701731332885419, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1701731332885550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701731332885557, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1701731332887413, "dur":78249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701731332663455, "dur":444, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701731332663899, "dur":5433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701731332669339, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1701731332669543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701731332672399, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1701731332674738, "dur":9288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1701731332684030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701731332684040, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1701731332685572, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1701731332685701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701731332686181, "dur":12929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1701731332699169, "dur":134035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701731332833213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701731332833223, "dur":2565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701731332835843, "dur":51449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701731332887298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701731332887659, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701731332889519, "dur":76132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332663495, "dur":410, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332663905, "dur":5417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332669337, "dur":46440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1701731332715782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332716461, "dur":3332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1701731332719847, "dur":21028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332740881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332740899, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332743379, "dur":33961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332777344, "dur":45, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332777397, "dur":2851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332780301, "dur":30794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332811102, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332811133, "dur":11172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332822354, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332822535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332822543, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332824243, "dur":27308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332851555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332851562, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332853664, "dur":573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332854240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332854247, "dur":2073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332856368, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332856896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332856902, "dur":3524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332860494, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332860676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332860684, "dur":4905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332865665, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332865720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332865728, "dur":3426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332869206, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332869260, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332869296, "dur":4072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332873429, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332873487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332873495, "dur":3167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332876718, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332876781, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332876791, "dur":2903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332879748, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332879924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332879930, "dur":3301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701731332883287, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1701731332883336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332883343, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1701731332885206, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701731332885286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701731332885294, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701731332887199, "dur":78427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332663526, "dur":384, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332663911, "dur":5435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332669347, "dur":11586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1701731332680938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332681029, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1701731332682955, "dur":4040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332687001, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332687609, "dur":4980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332692648, "dur":51700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332744351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332744360, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332746418, "dur":34168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332780589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332780600, "dur":2302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332782953, "dur":34293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332817252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332817263, "dur":4430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332821740, "dur":33541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332855287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332855296, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332857137, "dur":677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332857820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332857827, "dur":4044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332861920, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332862078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332862087, "dur":4244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332866388, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332866833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332866841, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332870187, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332870298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332870304, "dur":4690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332875045, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332875099, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332875106, "dur":2112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332877273, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332877326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332877332, "dur":3628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701731332881017, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1701731332881083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332881145, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1701731332882717, "dur":8434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1701731332891155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701731332891163, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1701731332892674, "dur":72961, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332663557, "dur":391, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332663948, "dur":5401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332669349, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1701731332669627, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332688018, "dur":4772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1701731332692837, "dur":52075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332744917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332744926, "dur":5571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332750554, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332750794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332750803, "dur":6723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332757577, "dur":920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332758501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332758509, "dur":4514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332763069, "dur":22721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332785796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332785805, "dur":3495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332789350, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332789652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332789659, "dur":7355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332797069, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332797291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332797307, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332799518, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332799697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332799705, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332801520, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332801722, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332801730, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332803441, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332803797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332803803, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332805591, "dur":33580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332839177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332839187, "dur":4640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332843882, "dur":120120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332964006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701731332964013, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701731332965599, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1701731332965601, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332663583, "dur":371, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332663954, "dur":5380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332669338, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1701731332669737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332688758, "dur":3689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1701731332692500, "dur":52578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332745083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332745093, "dur":8770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332753918, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332754126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332754134, "dur":8433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332762620, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332762825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332762836, "dur":3481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332766370, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332766560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332766568, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332768743, "dur":21088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332789834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332789842, "dur":3924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332793823, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332794141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332794149, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332796990, "dur":25657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332822650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332822657, "dur":5343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332828059, "dur":2085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332830148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332830156, "dur":5822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332836034, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332836279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332836289, "dur":2969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332839316, "dur":23565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332862885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332862893, "dur":6039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332868983, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332869035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332869042, "dur":3132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332872414, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332872483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332872490, "dur":4592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332877140, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332877198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332877204, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701731332881658, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1701731332881711, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332881717, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1701731332884171, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1701731332884226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701731332884232, "dur":2908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1701731332887192, "dur":78437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701731332663619, "dur":339, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701731332663958, "dur":5371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701731332669338, "dur":12068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1701731332681409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701731332681495, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1701731332683137, "dur":11422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1701731332694565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701731332694574, "dur":6412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1701731332701044, "dur":28441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701731332729492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701731332729540, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701731332731358, "dur":71492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701731332803435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701731332803444, "dur":3234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701731332806733, "dur":24998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701731332831736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701731332831747, "dur":4333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701731332836130, "dur":50866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701731332887000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701731332887009, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701731332888963, "dur":76695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332663649, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332663964, "dur":5367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332669337, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1701731332669589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332686295, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1701731332689375, "dur":27673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332717053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332717061, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332719139, "dur":28778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332747921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332747929, "dur":4086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332752066, "dur":22575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332774647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332774655, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332776378, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332776570, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332776580, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332779637, "dur":36463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332816115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332816127, "dur":4295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332820484, "dur":28870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332849359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332849369, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332851104, "dur":3873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332854983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332854995, "dur":8759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332863805, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332864547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332864557, "dur":3682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332868292, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332868350, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332868359, "dur":5957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332874371, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332874431, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332874438, "dur":5206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332879702, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332879762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701731332879773, "dur":6369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701731332886194, "dur":79434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332663683, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332663969, "dur":5364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332669337, "dur":11733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1701731332681074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332681091, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1701731332683006, "dur":54618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332737629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332737771, "dur":6246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332744071, "dur":79352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332823428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332823439, "dur":5240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332828732, "dur":22805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332851541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332851551, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332853547, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332854008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332854016, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332856092, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332856368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332856403, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332859762, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332859953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332859962, "dur":4605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332864619, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332864773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332864781, "dur":3505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332868346, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332868408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332868417, "dur":3752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332872231, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332872285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332872294, "dur":4382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332876736, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332876795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332876836, "dur":3324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332880209, "dur":26619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332906834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701731332907473, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Extra_Credit_RollerBall/Roll-a-Ball_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701731332908703, "dur":56928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701731332970881, "dur":2029, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1701731333001749, "dur": 806, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701731333001382, "dur": 1203, "ph": "X", "name": "Write chrome-trace events", "args": {} },
